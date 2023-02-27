@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Mikroprocesor </title>
+</head>
+<body>
+
+<h2>Add mikroprocesor</h2>
+
+<form action="#" th:action="@{/mikroprocesor}" th:object="${mikroprocesorToAdd}" method="post">
+
+    <div><input type="text" th:field="*{manufacture}"></div>
+    <div><input type="text" th:field="*{name}"></div>
+    <div><input type="submit" value="Submit"></div>
+
+</form>
+
+<!--<div th:if="${errorMessage}">-->
+<!--  <div th:text="${errorMessage}"></div>-->
+<!--</div>-->
+
+</body>
+</html>

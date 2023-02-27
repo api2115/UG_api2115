@@ -1,0 +1,3 @@
+assertpy
+nose
+coverage

@@ -1,0 +1,5 @@
+pyhamcrest
+parameterized
+coverage
+assertpy
+nose

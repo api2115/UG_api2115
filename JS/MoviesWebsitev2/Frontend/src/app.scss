@@ -1,0 +1,168 @@
+body{
+  margin: 0 0 0 0;
+  background-color: black;
+  color: white;
+}
+
+nav{
+  border-bottom: orangered 5px solid;
+  display: flex;
+  justify-content: space-between;
+  h3{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  margin-right: 10px;
+}
+
+li{
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+img{
+  height: 400px;
+}
+
+.filmbox{
+  width: 300px;
+  grid-area: box;
+  font-size: 22px;
+   margin: 10px;
+}
+
+.filmimage{
+  border: orangered 5px solid;
+  margin-left: 10px;
+}
+
+.filmspace{
+  display: flex;
+  justify-content: center;
+}
+
+.details{
+  display: flex;
+}
+
+button{
+  border: none;
+  background-color: orangered;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.editbutton{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.movielist{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.movie{
+  margin: 20px;
+  width: 300px;
+  img{
+    width: 300px;
+  }
+}
+
+.title{
+  text-align: center;
+}
+
+h3{
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.personlist{
+  display: flex;
+  border: 4px solid orangered;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.centerbox{
+  display: flex;
+  justify-content: center;
+}
+
+.personbox{
+  margin: 10px;
+}
+
+.idpersonbox{
+  display: flex;
+  border: 4px solid orangered;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.titlemov{
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.dropMenu{
+  border: 1px solid orangered;
+  margin-left: 10px;
+  padding-right: 10px;
+  p:hover{
+    cursor: pointer;
+  }
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.addbutton{
+  margin-right: 10px;
+  width: 100px;
+}
+
+.setSortowanie{
+  width: 100px;
+  height: 40px;
+}
+
+.setFiltrowanie{
+  width: 100px;
+  height: 40px;
+}
+
+.osoba{
+  display: flex;
+  align-items: center;
+}
+
+.paginacja{
+  display: flex;
+  justify-content: center;
+}

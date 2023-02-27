@@ -1,0 +1,8 @@
+{
+  "data": [
+    {"id":1,"first_name":"Adam","last_name":"Pilarski","age":20},
+    {"id":2,"first_name":"Wojtek","last_name":"Pietruszewski","age":21},
+    {"id":3,"first_name":"Szymon","last_name":"Merski","age":20},
+    {"id":4,"first_name":"Sebastian","last_name":"Rychert","age":21}
+    ]
+}

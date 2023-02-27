@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>All mikroprocesors</title>
+</head>
+<body>
+
+<h2>Mikroprocesors from (in memory) DB</h2>
+
+<div>
+    <a th:href="@{/mikroprocesor/form}">New mikroprocesor</a>
+</div>
+
+<div th:each="mP : ${allMikroprocesors}">
+    <div th:text="${mP.id}"></div>
+    <div th:text="${mP.manufacture}"></div>
+    <div th:text="${mP.name}"></div>
+    <a th:href="@{/mikroprocesor/delete/{id}(id=${mP.getId()})}">Delete</a>
+    <a th:href="@{/mikroprocesor/form/{id}(id=${mP.getId()})}">Edit</a>
+</div>
+
+<!--<div th:if="${successMessage}">-->
+<!--  <div th:text="${successMessage}"></div>-->
+<!--</div>-->
+
+<!--<div th:if="${errorMessage}">-->
+<!--  <div th:text="${errorMessage}"></div>-->
+<!--</div>-->
+
+</body>
+</html>

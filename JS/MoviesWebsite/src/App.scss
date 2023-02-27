@@ -1,0 +1,228 @@
+body{
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  width: 100%;
+}
+
+nav{
+  background: #55d6aa;
+  height: 8vh;
+  font-family: "Courier New", serif;
+  margin: 0 ;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+li:hover{
+  color: black;
+}
+
+.logo{
+  float: left;
+  color: white;
+  padding: 5px;
+}
+
+.przyciski{
+  float: right;
+  height: 8vh;
+}
+
+.film{
+  display: flex;
+  padding-top: 50px;
+  flex-direction: row;
+
+}
+
+button{
+  background: white;
+  border: 2px solid #55d6aa;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 8px;
+  font-family: "Courier New", serif;
+  float: right;
+  cursor: pointer;
+}
+
+p{
+  color: white;
+}
+
+.rating{
+  position: absolute;
+  left: 600px;
+}
+
+.stars{
+  display: flex;
+  margin-left: 27px;
+}
+
+.st{
+  display: flex;
+  margin-left: 27px;
+}
+
+.str{
+  padding: 10px;
+  transform: scale(2);
+}
+
+.stG{
+  color: #55d6aa;
+  padding: 10px;
+  transform: scale(2);
+}
+
+.str:hover{
+  color: #55d6aa;
+}
+
+.star{
+  padding: 10px;
+  transform: scale(2);
+}
+
+
+.starG{
+  color: #55d6aa;
+  padding: 10px;
+  transform: scale(2);
+}
+
+.dodawanie{
+  display: flex;
+}
+
+.dodajPotwierdz{
+  background: white;
+  border: 2px solid #55d6aa;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 8px;
+  font-family: "Courier New", serif;
+  cursor: pointer;
+}
+
+.obrazek{
+  width: 250px;
+  height: 300px;
+}
+
+.opis{
+  width: 250px;
+  height: 300px;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+.opisForm{
+  height: 145px;
+}
+
+.dropDown{
+  display: flex;
+  float: right;
+  flex-direction: column;
+}
+
+.dropMenu{
+  text-align: center;
+}
+
+.setSortowanie{
+  width: 130px;
+}
+
+@media (min-width: 900px) and (max-width:1100px) {
+  .rating{
+    position: relative;
+    left: 10px;
+    top:140px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .obrazek{
+    width: 125px;
+    height: 150px;
+  }
+
+  .opis{
+    width: 125px;
+    height: 150px;
+  }
+
+  button{
+    padding: 6px;
+  }
+
+  .film{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+  }
+
+  .rating{
+    position: absolute;
+    left:140px;
+  }
+
+  .star{
+    padding: 8px;
+    transform: scale(1);
+  }
+
+  .starG{
+    padding: 8px;
+    transform: scale(1);
+  }
+
+  .str{
+    padding: 8px;
+    transform: scale(1);
+  }
+
+  .stG{
+    padding: 8px;
+    transform: scale(1);
+  }
+
+  .dropDown{
+    position: absolute;
+    right: 150px;
+  }
+}
+
+@media (max-width: 630px ) {
+  .rating{
+    position: relative;
+    left:-30px;
+    bottom:30px
+  }
+  .ratingbutton{
+    position: absolute;
+    left:33px;
+  }
+  .dodawanie{
+    margin-top: 100px;
+    flex-direction: column;
+  }
+}

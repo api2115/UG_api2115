@@ -1,0 +1,8 @@
+venv
+.idea
+Include
+Lib
+Scripts
+share
+covid19-radiography-database
+pyvenv.cfg
